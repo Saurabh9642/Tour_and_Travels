@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(yikrkByMT.jpg);
+    display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+	
+}
+.app-container{
+    height: 770px;
+    width: 550px;
+    background-image:linear-gradient(120deg,#2980b9,#8e44ad);
+   
+}
+.top-box{
+    height: 150px;
+    background-image:linear-gradient(to right, #ff105f, #ffad06);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin-bottom: -30px;
+}
+.top-box p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+}
+.left-icon{
+    float: left;
+    margin-left: 30px;
+}
+.right-icon{
+    float: right;
+    margin-right: 30px;
+}
+.middle-box{
+    height: 150px;
+    background-image:linear-gradient(120deg,#5ba2d1,#8e44ad);
+    margin: -70px 30px 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.middle-box h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.middle-box span{
+    font-size: 40px;
+    margin-left: 10px;
+    position: relative;
+}
+.payment-option-btn{
+    color: #fff;
+    margin: 8px 70px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #9100fb;
+    border: none;
+    cursor: pointer;
+}
+.main{
+    height: 410px;
+    width: 490px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+label{
+    color:solid black;
+    float: left;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    font-weight:400;
+    margin-left:50px;
+    margin-top: 4px;
+}
+input[type="text"],select{
+    width:300px;
+    height: 35px;
+    padding:12px 20px;
+    margin:10px;
+    display:inline-box;
+    border:1px solid rgb(252, 106, 1);
+    border-radius:4px;
+    box-sizing:border-box;
+    box-shadow:10px 10px 10px #83e4ef;
+    font-size:15px;
+    color:grey;
+    margin-right:100px;
+    margin-left:90px;
+}
+input[type="number"],input[type="date"],input[type="password"]{
+    width:300px;
+    height: 35px;
+    padding:12px 20px;
+    margin:10px;
+    display:inline-box;
+    border:1px solid rgb(245, 80, 9);
+    border-radius:4px;
+    box-sizing:border-box;
+    box-shadow:10px 10px 10px #83e4ef;
+    font-size:15px;
+    color:grey;
+    margin-right:100px;
+    margin-left:90px;
+}
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.8s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 3px solid rgb(255, 85, 0);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-image:linear-gradient(to right, #ff105f, #ffad06);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: 0 5px 5px rgba(0,0,0,0.2);
+}
+.btn{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 160px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background-image:linear-gradient(to right, #ff105f, #ffad06);
+}

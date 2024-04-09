@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background: #f6f5f7;
+    min-height: 100%;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+}
+
+.container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+img{
+    display: block;
+    width: 600px;
+    height: 150px;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    text-shadow: 0px 0px 10px rgb(236, 91, 42);
+    font-size: 35px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    border: 1px solid rgb(101, 94, 223);
+    outline: none;
+    font-size: 13px;
+    background: #eee;
+}
+
+input:hover{
+    box-shadow:10px 10px 20px #7d8485;
+    border-color:#2691d9;
+    transition:.5s;	
+}
+
+select:hover{
+    box-shadow:10px 10px 20px #7d8485;
+    border-color:#2691d9;
+    transition:.5s;	
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea:hover{
+    box-shadow:10px 10px 20px #7d8485;
+    border-color:#2691d9;
+    transition:.5s;
+}
+
+button {
+    width: 500px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-image:linear-gradient(to right, #ff105f, #ffad06);
+}
+
+button:hover {
+    box-shadow:10px 10px 20px #312e2e;
+    border-color:#2691d9;
+    transition:.5s;	
+}

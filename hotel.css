@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f0ebeb;
+}
+.grllery{
+    width: 1200px;
+    display: flex;
+    overflow-x: scroll;
+}
+.grllery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:20px;
+    padding: 10px;
+    flex: none;
+}
+.grllery div img{
+    width: 100%;
+    height: 220px;
+    transition: transform 0.5s;
+}
+.grllery::-webkit-scrollbar{
+    display: none;
+}
+.gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+#backBtn, #nextBtn{
+    cursor: pointer;
+    margin: 40px;
+}
+.grllery div img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
